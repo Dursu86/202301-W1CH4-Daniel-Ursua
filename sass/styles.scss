@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 
 $primary-color: #ed6436;
@@ -18,12 +19,12 @@ main {
   margin-top: 5rem;
 }
 nav,
-.menu {
+.blockmenu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
-  padding: 0px;
+  padding: 2px;
   margin-right: 1.5rem;
 }
 section {
@@ -36,9 +37,11 @@ section {
 h1 {
   color: $primary-color;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 p {
   font-size: 3rem;
+  font-weight: bold;
 }
 main {
   display: flex;
@@ -54,4 +57,18 @@ main > div {
   margin-bottom: 10px;
   margin-left: 2.4rem;
   margin-right: 2.4rem;
+}
+.optionButton {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border: 3px solid $primary-color;
+  border-radius: 0px 147px 161px 135px / 0px 126px 95px 107px;
+}
+.option {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: $primary-color;
+  border-radius: 0px 147px 161px 135px / 0px 126px 95px 107px;
 }

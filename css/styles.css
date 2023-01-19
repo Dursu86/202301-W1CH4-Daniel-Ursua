@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -18,12 +19,12 @@ main {
 }
 
 nav,
-.menu {
+.blockmenu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
-  padding: 0px;
+  padding: 2px;
   margin-right: 1.5rem;
 }
 
@@ -39,10 +40,12 @@ section {
 h1 {
   color: #ed6436;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 p {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 main {
@@ -61,6 +64,22 @@ main > div {
   margin-bottom: 10px;
   margin-left: 2.4rem;
   margin-right: 2.4rem;
+}
+
+.optionButton {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border: 3px solid #ed6436;
+  border-radius: 0px 147px 161px 135px/0px 126px 95px 107px;
+}
+
+.option {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #ed6436;
+  border-radius: 0px 147px 161px 135px/0px 126px 95px 107px;
 }
 
 /*# sourceMappingURL=styles.css.map */
